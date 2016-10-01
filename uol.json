@@ -1,0 +1,31 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.uol.com.br/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Tecnologia"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Espião perfeito: drone se dobra todo, cabe na palma da mão e filma em 4K"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
